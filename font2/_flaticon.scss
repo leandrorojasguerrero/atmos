@@ -1,0 +1,64 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 21/08/2020 17:04
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-hospital:before { content: "\f100"; }
+.flaticon-salud:before { content: "\f101"; }
+.flaticon-resultados:before { content: "\f102"; }
+.flaticon-seguro:before { content: "\f103"; }
+.flaticon-hospital-1:before { content: "\f104"; }
+.flaticon-latido-del-corazon:before { content: "\f105"; }
+.flaticon-recurso:before { content: "\f106"; }
+.flaticon-seguro-de-coche:before { content: "\f107"; }
+.flaticon-coche:before { content: "\f108"; }
+.flaticon-seguridad:before { content: "\f109"; }
+.flaticon-proteccion:before { content: "\f10a"; }
+.flaticon-viento:before { content: "\f10b"; }
+    
+    $font-Flaticon-hospital: "\f100";
+    $font-Flaticon-salud: "\f101";
+    $font-Flaticon-resultados: "\f102";
+    $font-Flaticon-seguro: "\f103";
+    $font-Flaticon-hospital-1: "\f104";
+    $font-Flaticon-latido-del-corazon: "\f105";
+    $font-Flaticon-recurso: "\f106";
+    $font-Flaticon-seguro-de-coche: "\f107";
+    $font-Flaticon-coche: "\f108";
+    $font-Flaticon-seguridad: "\f109";
+    $font-Flaticon-proteccion: "\f10a";
+    $font-Flaticon-viento: "\f10b";
